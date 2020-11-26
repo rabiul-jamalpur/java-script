@@ -17,7 +17,9 @@
     <script>
         function rabi() {
             var x = document.getElementById("one").value;
-            if (x >=0 && x < 12) {
+             else if (0 <= x && x <=5) {
+                document.getElementById("result").innerHTML = "Good Night";
+            if (x >= 6 && x < 12) {
                 document.getElementById("result").innerHTML = "Good Morning";
             } else if (12 <= x && x < 17) {
                 document.getElementById("result").innerHTML = "Good Afternoon";
